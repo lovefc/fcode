@@ -1,0 +1,206 @@
+/* --------------------------------------
+   Responsive CSS
+-----------------------------------------*/
+
+
+ @media (max-width: 991px) {
+     
+     .pull-right, 
+     .pull-left {
+         float: none !important;
+         margin: auto;
+     }
+     
+     .text-left,
+     .text-right {
+         
+         text-align: center;
+     }
+     
+     .side-images {
+         margin-bottom: 40px;
+     }
+     
+     .feature-list {
+         margin-top: 0;
+     }
+     
+     .feature-list li .icon-container {
+         float: left !important;
+     }
+     
+     .feature-list li p {
+         text-align: left !important;
+     }
+     
+     header .vertical-registration-form {
+         margin-top: 10px;
+        
+     }
+     
+     .distance-header {
+         margin-bottom: 50px;
+         margin-top: 0;
+     }
+ }
+ 
+ 
+@media (min-width: 768px) and (max-width: 991px) { 
+    
+    html {
+        font-size: 90%;
+    }
+    
+    .sticky-navigation .navbar-header {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .sticky-navigation .navbar-header a {
+        float: none !important;
+    }
+     
+     .feature-list {
+         float: left;
+         font-size: 16px;
+         line-height: 25px;
+     }
+     .feature-list li p {
+         font-size: 16px;
+         line-height: 25px;
+     }
+    .testimonial .testimonial-slide .content p {
+		padding:0 30px;
+	}
+}
+
+
+@media(max-width:767px) {
+    
+	html {
+		font-size: 80%;
+	}
+
+	header,
+	.section-follow-me {
+		background-attachment: scroll !important;
+	}
+
+	.navigation-header {
+		padding-top: 25px;
+		padding-bottom: 10px;
+	}
+
+	.navbar-inverse .navbar-collapse {
+		border-color: #ececec;
+	}
+	
+	.distance-button {
+	    margin-top: 10px;
+	    margin-bottom: 70px;
+	    padding: 10px;
+	}
+	
+	.distance-header .sub-heading {
+	    font-size: 15px;
+	    line-height: 25px;
+	}
+
+	.section-about,
+    .section-features,
+    .section-pricing,
+    .section-video,
+    .section-portfolio,
+    .section-testimonial,
+    .section-contact {
+		padding-top: 75px;
+		padding-bottom: 75px;
+	}
+
+	.feature-list {
+		width: 80%;
+		margin: auto;
+	}
+
+	.feature-list li p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.navbar-toggle {
+		background-color: #008ed6;
+	}
+
+	.nav>li {
+		display: inline-block;
+	}
+
+	.vertical-registration-form {
+		max-width: 80%;
+	}
+
+	.subscription-form .input-box {
+		margin: auto;
+		width: 80%;
+		margin-bottom: 10px;
+		margin-top: 25px;
+	}
+    .testimonial .testimonial-slide .content p {
+		padding:0 30px;
+	}
+}
+ 
+ 
+@media(max-width:480px) {
+    
+	html {
+		font-size: 65%;
+	}
+
+	.feature-list {
+		display: none;
+	}
+
+	body {
+		font-size: 13px;
+		line-height: 21px;
+	}
+	
+	.distance-button {
+	    margin-bottom: 40px;
+	}
+
+	.feature-list {
+		width: 80%;
+	}
+
+	.vertical-registration-form {
+		max-width: 100%;
+	}
+
+	h4 {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	h5 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	h6 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.standard-button,
+    .secondary-button, {
+		font-size: 13px;
+		min-width: 100px;
+		padding: 11px 20px 11px 20px;
+	}
+    .testimonial .testimonial-slide .content p {
+		padding:0 10px;
+	}
+}

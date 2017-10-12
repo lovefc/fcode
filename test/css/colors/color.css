@@ -1,0 +1,103 @@
+/* --------------------------------------
+
+
+
+Color Code : #F9BF3B
+
+----------------------------------------- */
+.strong {
+  color: #F9BF3B;
+}
+strong {
+  color: #F9BF3B;
+}
+.underline {
+  background: #F9BF3B; }
+
+.colo#F9BF3B-text {
+  color: #F9BF3B !important; }
+
+.color-background {
+  background: #F9BF3B; }
+
+a {
+  color: #F9BF3B; }
+
+.navbar-toggle {
+  border: none !important;
+  background-color: #F9BF3B !important; }
+
+.navbar-toggle:hover {
+  background-color: #F9BF3B !important; }
+
+.non-sticky .navbar-nav > li > a:hover {
+  color: #F9BF3B; }
+
+.standard-button {
+  border: 2px solid #F9BF3B !important;
+  background-color: #F9BF3B;
+}
+
+.standard-button:hover {
+  background:#F9BF3B;
+  color: #323232;
+}
+h2 {
+  color: #F9BF3B !important;
+}
+.package .header-dark {
+  background-color: #F9BF3B;
+}
+.package-center .header {
+  background-color: #F9BF3B;
+}
+.package-features .bottom-row .standard-button {
+  background-color: #F9BF3B;
+}
+.package-features .bottom-row .standard-button:hover {
+  background-color: #fff;
+    border-color: #F9BF3B !important;
+}
+.package-features .bottom-row .secondary-button {
+  margin: 0;
+  padding: 5px 15px;
+  vertical-align: middle;
+    background-color: #F9BF3B;
+    border: 1px solid transparent;
+}
+.package-features .bottom-row .secondary-button:hover {
+    background-color: #fff;
+    border-color: #F9BF3B;
+}
+.secondary-button:hover {
+   }
+
+.sticky-navigation .main-navigation .current a {
+  color: #F9BF3B !important;
+  border-color: transparent; !important; }
+
+.sticky-navigation .navbar-nav > li > a:hover {
+  color: #F9BF3B;
+  border-color: transparent; }
+
+.feature-list li .icon-custom {
+   }
+
+.feature .icon {
+  color: #F9BF3B; }
+.feature .icon i:hover{
+	border: 2px solid #F9BF3B;
+}
+.input-box:active,
+.textarea-box:active,
+.input-box:focus,
+.textarea-box:focus {
+  border: 10px solid #F9BF3B !important; }
+
+.portfolio .owl-theme .owl-controls .owl-page span {
+  background: #F9BF3B; }
+
+.social-icons li a:hover {
+  background: #F9BF3B; }
+
+/*# sourceMappingURL=alizarin.css.map */
