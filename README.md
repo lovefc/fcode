@@ -2,7 +2,7 @@
  
  ![](http://fcode.lovefc.cn/fcode-1.jpg)
  <br />
- ![](http://fcode.lovefc.cn/fcode2-2.jpg)
+ ![](http://fcode.lovefc.cn/fcode-2.jpg)
   #### fcode.js是什么？
   
    fcode.js是一款web页面九宫格自动锁屏js插件，依赖于jquery，
