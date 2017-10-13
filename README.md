@@ -1,7 +1,7 @@
  ###  fcode.js 自动锁屏插件
  
  ![](http://fcode.lovefc.cn/fcode.jpg)
- 
+ ![](http://fcode.lovefc.cn/fcode2.jpg)
   #### fcode.js是什么？
   
    fcode.js是一款web页面九宫格自动锁屏js插件，依赖于jquery，
