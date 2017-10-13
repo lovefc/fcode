@@ -10,8 +10,8 @@
   
    就一个js文件，配置简单，操作方便，可以锁住任何页面，还支持在手机端的锁屏。
    
-   演示地址：http://fcode.lovefc.js
-   
+   演示地址：http://fcode.lovefc.cn
+   
    demo请在http方式下访问
    
   #### 如何使用fcode？
