@@ -1,8 +1,7 @@
  ###  fcode.js 自动锁屏插件
+ ![fcode-index](https://www.kancloud.cn/book/lovefc/suibi/preview/images/fcode-index1.png)
+ ![fcode](https://www.kancloud.cn/book/lovefc/suibi/preview/images/fcode.jpg)
  
- ![](http://fcode.lovefc.cn/fcode-1.jpg)
- <br />
- ![](http://fcode.lovefc.cn/fcode-2.jpg)
   #### fcode.js是什么？
   
    fcode.js是一款web页面九宫格自动锁屏js插件，依赖于jquery，
@@ -10,8 +9,10 @@
    会在设置的范围里，判断用户有无操作，然后执行锁屏的功能。
   
  就一个js文件，配置简单，操作方便，可以锁住任何页面，还支持在手机端的锁屏。
+ 
+ 此外，还支持更新密码，或者用来登录，都有相关的说明，特别简单，相信您看一下，就会明白！
    
- 演示地址：http://fcode.lovefc.cn
+ 演示地址：http://fcphp.cn/fcode
    
  demo请在http方式下访问
    
@@ -21,7 +22,7 @@
 
   <script src="js/jquery.min.js"></script>
   
-  <script src="js/fcode.js"></script>
+  <script src="js/fcode.min.js"></script>
   
   <script type="text/javascript">
       fcode.Start(123);
@@ -60,8 +61,6 @@
 ~~~
 
 >这里重点介绍一下fcode.Start这个函数的设置，这个函数是启动功能的，参数可以是密码，md5加密的密码，或者是一个api接口
- 
->这里我重点讲一下，请不要拿它做登录相关的应用，因为它是js为主体的，容易被绕过去，本身来讲，就不是十分安全的，锁屏功能主要应用于后台页面无人操作时，自动屏蔽页面，隐藏当前的操作，以及一些其（zhuang）它（bi）方面的应用，所以我设置了三种设置密码的方式。
 
 1.普通密码形式。
 ~~~
@@ -76,10 +75,10 @@
      fcode.Start('202cb962ac59075b964b07152d234b70');//启动运行
 ~~~
  
-3.第三种方式就是api接口形式的了，目前只提供了php的接口参考（本人做php的），地址一定要填写完整的接口地址，例如 http://127.0.0.1/yz.php
+3.第三种方式就是api接口形式的了，目前只提供了php的接口参考（本人做php的），地址一定要填写完整的接口地址，例如 http://127.0.0.1/status.php
  
  ~~~
-     fcode.Start('http://127.0.0.1/yz.php');
+     fcode.Start('http://127.0.0.1/status.php');
 ~~~
 
 接口设计也是非常简单，没有什么复杂的地方，一看便知
@@ -112,8 +111,8 @@
 
 #### 作者吐槽
 
-不足之处 欢迎反馈  QQ:1102952084
+不足之处 欢迎反馈  
 
-快捷使用 方便你我 给个Star 感激不尽
+QQ:1102952084
 
-｡:.ﾟヽ(｡◕‿◕｡)ﾉﾟ.:｡+ﾟ
+作者博客:http://lovefc.cn
